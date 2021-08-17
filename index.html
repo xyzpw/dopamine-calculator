@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="og:title" content="Dopamine calculator">
+  <meta name="og:description" content="Calculate dopamine levels from drug dosages">
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js"></script>
+</head>
+<body>
+  <select id="drug">
+    <option value="caffeine">Caffeine</option>
+    <option value="nicotine">Nicotine</option>
+    <option value="dexmethylphenidate">DexMethylphenidate</option>
+    <option value="thc">THC</option>
+    <option value="levoamphetamine">LevoAmphetamine</option>
+    <option value="dextroamphetamine">DextroAmphetamine</option>
+    <option value="ethanol">Ethanol</option>
+    <option value="methamphetamine">Methamphetamine</option>
+    <option value="mdma">MDMA</option>
+    <option value="cocaine">Cocaine</option>
+    <option value="heroin">Heroin</option>
+    <option value="morphine">Morphine</option>
+    <option value="pea">Phenylethylamine (PEA)</option>
+  </select>
+  <input type="number" placeholder="Drug dose (mg/kg)" id="dose">
+  <button id="btn" onclick="calculate();">Calculate</button>
+  <button onclick="getFormula();">Formula</button>
+  <br/>
+  <p id="results"></p>
+</body>
+</html>
