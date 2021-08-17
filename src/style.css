@@ -1,0 +1,19 @@
+body {
+  background-color: #121212;
+  color: #ccc;
+}
+button {
+  background-color: #202020;
+  color: #ccc;
+}
+button:hover {
+  transform: scale(1.1);
+}
+select {
+  background-color: #202020;
+  color: #cccccc;
+}
+input {
+  background-color: #202020;
+  color: #ccc;
+}
