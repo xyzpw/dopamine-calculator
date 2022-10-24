@@ -41,7 +41,7 @@ function getFormula() {
             break
         }
         case 'methamphetamine': {
-            results.textContent = `Dopamine: mg/kg * 500 (max=8,000%)`;
+            results.innerText = `Dopamine: mg/kg * 500 (max=8,000%)\nGlutamate: mg/kg * 250 (max=500%)`;
             break
         }
         case 'mdma': {
@@ -126,7 +126,8 @@ function calculate() {
         }
         case "methamphetamine": {
             dopamine = dose * 500; if (dopamine > 8000) dopamine = 8000; dopamine = dopamine.toLocaleString();
-            results.innerText = `Dopamine: ${dopamine}%`;
+            glutamate = dose * 250; if (glutamate > 500) glutamate = 500; glutamate = glutamate.toLocaleString();
+            results.innerText = `Dopamine: ${dopamine}%\nGlutamate: ${glutamate}%`;
             break;
         }
         case "mdma": {
