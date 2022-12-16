@@ -13,7 +13,7 @@ function getFormula() {
     drug = document.getElementById('drug').value;
     switch (drug) {
         case 'caffeine': {
-            results.innerText = `Dopamine: mg/kg * 15 (max=150%)\nSerotonin: mg/kg * 7 (max=30%)\nGlutamate: mg/kg * 10 (max=100%)\nAdenosine: mg/kg * -10 (max=-50%)\nEpinephrine: (mg/kg - 1) * 12.5 (max=100%)\nOxytocin: mg/kg * 100 (max=150%)`;
+            results.innerText = `Dopamine: mg/kg * 15 (max=150%)\nSerotonin: mg/kg * 7 (max=30%)\nGlutamate: mg/kg * 10 (max=100%)\nAdenosine: mg/kg * -10 (max=-50%)\nEpinephrine: (mg/kg - 1) * 12.5 (max=100%)`;
             break
         }
         case 'nicotine': {
@@ -61,7 +61,7 @@ function getFormula() {
             break
         }
         case 'pea': {
-            results.textContent = `Dopamine: mg/kg * 7.5 (max=169%)`;
+            results.textContent = `Dopamine: mg/kg * 14 (max=169%)`;
             break
         }
         case 'atomoxetine': {
@@ -87,8 +87,7 @@ function calculate() {
             glutamate = dose * 10; if (glutamate > 100) glutamate = 100;
             adenosine = -(dose * 10); if (adenosine < -50) adenosine = -50;
             epinephrine = (dose - 1) * 12.5; if (epinephrine > 100) epinephrine = 100; if (epinephrine < 0) epinephrine = 0;
-            oxytocin = dose * 100; if (oxytocin >= 150) oxytocin = 150;
-            results.innerText = `Dopamine: ${dopamine}%\nSerotonin: ${serotonin}%\nGlutamate: ${glutamate}%\nAdenosine: ${adenosine}%\nEpinephrine: ${epinephrine}%\nOxytocin: ${oxytocin}%`;
+            results.innerText = `Dopamine: ${dopamine}%\nSerotonin: ${serotonin}%\nGlutamate: ${glutamate}%\nAdenosine: ${adenosine}%\nEpinephrine: ${epinephrine}%`;
             break;
         }
         case "nicotine": {
@@ -153,7 +152,7 @@ function calculate() {
             break;
         }
         case "pea": {
-            dopamine = dose * 7.5; if (dopamine >= 169) dopamine = 169;
+            dopamine = dose * 14; if (dopamine >= 169) dopamine = 169;
             results.textContent = `Dopamine: ${dopamine}%`;
             break;
         }
