@@ -2,7 +2,7 @@
 
 Enter the dosage of a drug and it will say the amount of dopamine released from it.<br/>
 The information is based on studies I've read. <br/>
-:warning:NOTE: Not promoting drug use, I just like sharing the things I read and making it easier, like a project of mine.
+:warning:NOTE: Not promoting drug use, I just like sharing the things I read and making it easier, like a project of mine.<3 :pill:
 
 # sources
 I lost the source to most of these, only recently have I been linking sources, I will try to link my sources from now on. :pill::coffee:<br/> <br/>
@@ -14,12 +14,19 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391296/ - 2 mg/kg methylamphetamin
 
 <b>Dextro/Levo Amphetamine on dopamine/noradrenaline</b> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3666194/ 1 mg/kg of dextro-amphetamine increased dopamine by 1,500%, although I've read other papers that can be as high as 2,000%. <br/> <br/>
 
-<b>Dextroamphetamine 2,000% increase</b> https://www.researchgate.net/publication/26255561_Ren_J_Xu_H_Choi_J-K_Jenkins_BG_Chen_YI_Dopaminergic_response_to_graded_dopamine_concentration_elicited_by_four_amphetamine_doses_Synapse_63_764-772 This isn't the main paper I found when I read 2,000% which I never kept source so I no longer have source for that one, but here is another I found. <br/>
+<b>Dextroamphetamine 2,000% dopamine increase per mg/kg</b> https://www.researchgate.net/publication/26255561_Ren_J_Xu_H_Choi_J-K_Jenkins_BG_Chen_YI_Dopaminergic_response_to_graded_dopamine_concentration_elicited_by_four_amphetamine_doses_Synapse_63_764-772 This isn't the main paper I found when I read 2,000% which I never kept source so I no longer have source for that one, but here is another I found. <br/>
 > the linear fit is %DA = 1976 * dose. For these calculations, we used amphetamine-induced peak DA magnitudes of 1000% at 0.6 mg/kg and 2000% at 1 mg/kg <br/> <br/>
+
+<b>Dextrtoamphetamine 6,000% dopamine increase</b> https://jpet.aspetjournals.org/content/369/1/107 (Fig. 5) I've seen other studies on this that show d-amph can increase dopamine by 6,000%, but I haven't found these since I've lost the source.
+> Circles refer to a 0.1-mg/kg dose, diamonds refer to a 0.3-mg/kg dose, triangles refer to a 0.5-mg/kg dose, and squares refer to a 1-mg/kg dose
+![](/img/dextroamphetamine_6000.jpg)
+<br/> <br/>
 
 [methamphetamine is five times more potent than dextroamphetamine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2631950/) <br/> <br/>
 
-<b>Atomoxetine Dopamine/Norepinephrine</b> https://www.nature.com/articles/1395936
+<b>Atomoxetine Dopamine/Norepinephrine</b> https://www.nature.com/articles/1395936 <br/> <br/>
+
+<b>Caffeine occupancy on adenosine</b> https://jnm.snmjournals.org/content/53/11/1723
 
 # misc
 Additinal information that could be useful for this project. <br/>
