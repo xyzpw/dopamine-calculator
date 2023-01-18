@@ -4,6 +4,9 @@ Enter the dosage of a drug and it will say the amount of dopamine released from 
 The information is based on studies I've read. <br/>
 :warning:NOTE: Not promoting drug use, I just like sharing the things I read and making it easier, like a project of mine.<3 :pill:
 
+# page
+[Github pages link](https://potatochips2001.github.io/dopamine-calculator/index.html)
+
 # sources
 I lost the source to most of these, only recently have I been linking sources, I will try to link my sources from now on. :pill::coffee:<br/> <br/>
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391296/ - 2 mg/kg methylamphetamine increases glutamte by 500% (Fig. 1)<br/> <br/>
