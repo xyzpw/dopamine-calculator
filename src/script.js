@@ -13,7 +13,8 @@ function getFormula() {
     drug = document.getElementById('drug').value;
     switch (drug) {
         case 'caffeine': {
-            results.innerText = `Dopamine: mg/kg * 15 (max=150%)\nSerotonin: mg/kg * 7 (max=30%)\nGlutamate: mg/kg * 10 (max=100%)\nAdenosine: mg/kg * -10 (max=-50%)\nEpinephrine: (mg/kg - 1) * 12.5 (max=100%)`;
+            //volume of distribution for caffeine is 0.7 L/kg, so divide mg/kg by 0.7 to get mg/L
+            results.innerText = `Dopamine: mg/kg * 15 (max=150%)\nSerotonin: mg/kg * 7 (max=30%)\nGlutamate: mg/kg * 10 (max=100%)\nAdenosine: -((mg/L) / (IC50=13 + mg/L)) (max=-50%)\nEpinephrine: (mg/kg - 1) * 12.5 (max=100%)`;
             break
         }
         case 'nicotine': {
@@ -82,10 +83,13 @@ function calculate() {
     if (dose < 0 || dose == null) dose = 0;
     switch (drug) {
         case "caffeine": {
+            let IC50 = 13;
+            let mg_L = dose / 0.7;
             dopamine = dose * 15; if (dopamine > 150) dopamine = 150;
             serotonin = dose * 7; if (serotonin > 30) serotonin = 30;
             glutamate = dose * 10; if (glutamate > 100) glutamate = 100;
-            adenosine = -(dose * 10); if (adenosine < -50) adenosine = -50;
+            //adenosine = -(dose * 10); if (adenosine < -50) adenosine = -50; this was the old formula
+            adenosine = Math.floor(-((mg_L) / (IC50 + mg_L)) * 1000)/10; if (adenosine < -50) adenosine = -50;
             epinephrine = (dose - 1) * 12.5; if (epinephrine > 100) epinephrine = 100; if (epinephrine < 0) epinephrine = 0;
             results.innerText = `Dopamine: ${dopamine}%\nSerotonin: ${serotonin}%\nGlutamate: ${glutamate}%\nAdenosine: ${adenosine}%\nEpinephrine: ${epinephrine}%`;
             break;
