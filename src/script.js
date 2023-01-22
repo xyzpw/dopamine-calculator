@@ -38,7 +38,7 @@ function getFormula() {
             break
         }
         case 'ethanol': {
-            results.textContent = `Dopamine: mg/kg / 10 OR g/kg * 100 (max=100%)`;
+            results.textContent = `Dopamine: g/kg * 56 (max=125%)`;
             break
         }
         case 'methamphetamine': {
@@ -123,7 +123,8 @@ function calculate() {
             break;
         }
         case "ethanol": {
-            dopamine = dose / 10; if (dopamine > 100) dopamine = 100;
+            let dose_in_grams = dose / 1e+3;
+            dopamine = dose_in_grams * 56; if (dopamine > 125) dopamine = 125;
             results.innerText = `Dopamine: ${dopamine}%`;
             break;
         }
