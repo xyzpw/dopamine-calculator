@@ -29,7 +29,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391296/ - 2 mg/kg methylamphetamin
 
 <b>Atomoxetine Dopamine/Norepinephrine</b> https://www.nature.com/articles/1395936 <br/> <br/>
 
-<b>Caffeine occupancy on adenosine</b> https://jnm.snmjournals.org/content/53/11/1723
+<b>Caffeine occupancy on adenosine</b> https://jnm.snmjournals.org/content/53/11/1723 <br/> <br/>
+
+<b>New study(s) I found on ethanol and DA</b> https://www.nature.com/articles/1300081, https://www.sciencedirect.com/science/article/abs/pii/074183299290004T?via%3Dihub
 
 # misc
 Additinal information that could be useful for this project. <br/>
