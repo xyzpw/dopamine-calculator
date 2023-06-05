@@ -46,7 +46,7 @@ function getFormula() {
             break
         }
         case 'mdma': {
-            results.innerText = `Dopamine: (mg/kg starting after 1.5 mg/kg) * 100 (max=500%)\nSerotonin: mg/kg * 400 (max=3,000%)\nOxytocin: mg/kg * 400 (max=500%)`;
+            results.innerText = `Dopamine: mg/kg * 100 (max=500%)\nSerotonin: mg/kg * 1000 (max=3,000%)\nOxytocin: mg/kg * 400 (max=500%)`;
             break
         }
         case 'cocaine': {
@@ -135,8 +135,8 @@ function calculate() {
             break;
         }
         case "mdma": {
-            dopamine = dose * 100; if (dose < 1.5) dopamine = 0; if (dopamine > 500) dopamine = 500;
-            serotonin = dose * 400; if (serotonin > 3000) serotonin = 3000; serotonin = serotonin.toLocaleString();
+            dopamine = dose * 100; if (dopamine > 500) dopamine = 500;
+            serotonin = dose * 1000; if (serotonin > 3000) serotonin = 3000; serotonin = serotonin.toLocaleString();
             oxytocin = dose * 400; if (oxytocin > 500) oxytocin = 500;
             results.innerText = `Dopamine: ${dopamine}%\nSerotonin: ${serotonin}%\nOxytocin: ${oxytocin}%`;
             break;
