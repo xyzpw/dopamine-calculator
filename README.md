@@ -33,6 +33,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391296/ - 2 mg/kg methylamphetamin
 
 <b>New study(s) I found on ethanol and DA</b> https://www.nature.com/articles/1300081, https://www.sciencedirect.com/science/article/abs/pii/074183299290004T?via%3Dihub
 
+<br/><br/>
+<b>MDMA Serotonin Release https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1705495/</b>
+
 # misc
 Additinal information that could be useful for this project. <br/>
 ß-Phenylethylamine (PEA) [at 100uM (12.118 mg/kg)]: 157±12% (in DAT-1) <br/>
