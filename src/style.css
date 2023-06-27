@@ -5,6 +5,8 @@ body {
 
 button {
     background-color: #202020;
+    border-color: transparent;
+    border-radius: 5px;
     color: #ccc;
 }
 
@@ -14,10 +16,18 @@ button:hover {
 
 select {
     background-color: #202020;
+    border-color: transparent;
+    border-radius: 5px;;
     color: #cccccc;
 }
 
 input {
     background-color: #202020;
+    border-color: transparent;
+    border-radius: 5px;
     color: #ccc;
+    appearance: textfield;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    appearance: none;
 }

@@ -5,7 +5,7 @@ The information is based on studies I've read. <br/>
 :warning:NOTE: Not promoting drug use, I just like sharing the things I read and making it easier, like a project of mine.<3 :pill:
 
 # page
-[Github pages link](https://xyzpw.github.io/dopamine-calculator/index.html)
+[Github pages link](https://potatochips2001.github.io/dopamine-calculator/index.html)
 
 # sources
 I lost the source to most of these, only recently have I been linking sources, I will try to link my sources from now on. :pill::coffee:<br/> <br/>
@@ -31,10 +31,12 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391296/ - 2 mg/kg methylamphetamin
 
 <b>Caffeine occupancy on adenosine</b> https://jnm.snmjournals.org/content/53/11/1723 <br/> <br/>
 
-<b>New study(s) I found on ethanol and DA</b> https://www.nature.com/articles/1300081, https://www.sciencedirect.com/science/article/abs/pii/074183299290004T?via%3Dihub
+<b>Caffeine Norepinephrine and Epinephrine</b> <br/>
+https://www.nejm.org/doi/full/10.1056/NEJM197801262980403, https://www.nejm.org/doi/full/10.1056/NEJM197801262980403 <br/>
+With this I was able to estimate/calculate the weight in the studie(s) to about 78-79 kg from the info that was in it. <br/>
+The old epinephrine formula was (mg/kg - 2) * 12.5, but this study shows it can be more than this at much lower doses.
 
-<br/><br/>
-<b>MDMA Serotonin Release https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1705495/</b>
+<b>New study(s) I found on ethanol and DA</b> https://www.nature.com/articles/1300081, https://www.sciencedirect.com/science/article/abs/pii/074183299290004T?via%3Dihub
 
 # misc
 Additinal information that could be useful for this project. <br/>

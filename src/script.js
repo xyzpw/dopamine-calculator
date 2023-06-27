@@ -14,7 +14,12 @@ function getFormula() {
     switch (drug) {
         case 'caffeine': {
             //volume of distribution for caffeine is 0.7 L/kg, so divide mg/kg by 0.7 to get mg/L
-            results.innerText = `Dopamine: mg/kg * 15 (max=150%)\nSerotonin: mg/kg * 7 (max=30%)\nGlutamate: mg/kg * 10 (max=100%)\nAdenosine: -((mg/L) / (IC50=13 + mg/L)) (max=-50%)\nEpinephrine: (mg/kg - 1) * 12.5 (max=100%)`;
+            results.innerText = `Dopamine: mg/kg * 15 (max=150%)
+            Serotonin: mg/kg * 7 (max=30%)
+            Glutamate: mg/kg * 10 (max=100%)
+            Adenosine: -((mg/L) / (IC50=13 + mg/L)) (max=-50%)
+            Epinephrine: mg/kg * 65 (max=207%)
+            Norepinephrine: mg/kg * 24 (max=75%)`;
             break
         }
         case 'nicotine': {
@@ -90,8 +95,15 @@ function calculate() {
             glutamate = dose * 10; if (glutamate > 100) glutamate = 100;
             //adenosine = -(dose * 10); if (adenosine < -50) adenosine = -50; this was the old formula
             adenosine = Math.floor(-((mg_L) / (IC50 + mg_L)) * 1000)/10; if (adenosine < -50) adenosine = -50;
-            epinephrine = (dose - 1) * 12.5; if (epinephrine > 100) epinephrine = 100; if (epinephrine < 0) epinephrine = 0;
-            results.innerText = `Dopamine: ${dopamine}%\nSerotonin: ${serotonin}%\nGlutamate: ${glutamate}%\nAdenosine: ${adenosine}%\nEpinephrine: ${epinephrine}%`;
+            //epinephrine = (dose - 1) * 12.5; if (epinephrine > 100) epinephrine = 100; if (epinephrine < 0) epinephrine = 0; old formula, still keeping it in the comments
+            epinephrine = dose * 65; if (epinephrine > 207) epinephrine = 207;
+            norepinephrine = dose * 24; if (norepinephrine > 75) norepinephrine = 75;
+            results.innerText = `Dopamine: ${dopamine}%
+            Serotonin: ${serotonin}%
+            Glutamate: ${glutamate}%
+            Adenosine: ${adenosine}%
+            Epinephrine: ${epinephrine}%
+            Norepinephrine: ${norepinephrine}%`;
             break;
         }
         case "nicotine": {
