@@ -34,7 +34,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391296/ - 2 mg/kg methylamphetamin
 <b>Caffeine Norepinephrine and Epinephrine</b> <br/>
 https://www.nejm.org/doi/full/10.1056/NEJM197801262980403, https://www.nejm.org/doi/full/10.1056/NEJM197801262980403 <br/>
 With this I was able to estimate/calculate the weight in the studie(s) to about 78-79 kg from the info that was in it. <br/>
-The old epinephrine formula was (mg/kg - 2) * 12.5, but this study shows it can be more than this at much lower doses.
+The old epinephrine formula was (mg/kg - 1) * 12.5, but this study shows it can be more than this at much lower doses.
 
 <b>New study(s) I found on ethanol and DA</b> https://www.nature.com/articles/1300081, https://www.sciencedirect.com/science/article/abs/pii/074183299290004T?via%3Dihub
 
